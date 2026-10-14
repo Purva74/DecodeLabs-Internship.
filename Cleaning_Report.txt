@@ -1,0 +1,51 @@
+DATA ANALYTICS PROJECT 1
+Data Cleaning & Preparation
+========================================
+Original rows: 1200
+Original columns: 14
+Final clean rows: 1200
+Completely duplicate rows removed: 0
+Duplicate OrderIDs removed: 0
+Rows with invalid/missing dates moved out of clean dataset: 0
+Rows with missing OrderID moved out of clean dataset: 0
+Duplicate OrderIDs remaining: 0
+Invalid/missing dates remaining: 0
+
+Missing values before cleaning:
+OrderID              0
+Date                 0
+CustomerID           0
+Product              0
+Quantity             0
+UnitPrice            0
+ShippingAddress      0
+PaymentMethod        0
+OrderStatus          0
+TrackingNumber       0
+ItemsInCart          0
+CouponCode         309
+ReferralSource       0
+TotalPrice           0
+
+Missing values in final clean dataset:
+OrderID            0
+Date               0
+CustomerID         0
+Product            0
+Quantity           0
+UnitPrice          0
+ShippingAddress    0
+PaymentMethod      0
+OrderStatus        0
+TrackingNumber     0
+ItemsInCart        0
+CouponCode         0
+ReferralSource     0
+TotalPrice         0
+
+Verification:
+Zero duplicate OrderIDs: PASS
+Zero invalid/missing dates: PASS
+
+Note: Other missing values are reported for review rather than filled with guessed values.
+CouponCode blanks are filled with 'No Coupon'.
